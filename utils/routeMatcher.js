@@ -2,8 +2,8 @@ function matchRoute(routes, url) {
   for (const route in routes) {
     const routeSegments = route.split("/"); //routes that  are present in the routes folder
     const urlSegments = url.split("/"); //sent in the postman
-    console.log(routeSegments);
-    console.log(urlSegments);
+    // console.log(routeSegments);
+    // console.log(urlSegments);
     if (routeSegments.length === urlSegments.length) {
       let params = null;
       let matched = true;
